@@ -25,10 +25,10 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.image = [UIImage imageNamed:@"reward.png"];
     
-    ScratchcardView *v = [ScratchcardView viewWithFrame:CGRectMake(30, 100, self.view.bounds.size.width-60, 70)
+    ScratchcardView *v = [ScratchcardView viewWithFrame:CGRectMake(40, 100, self.view.bounds.size.width-80, 70)
                                           concealedView:imageView
                                                maskView:v1];
-    v.scratchWith = 20;
+    v.scratchWidth = 10;
     [self.view addSubview:v];
 }
 

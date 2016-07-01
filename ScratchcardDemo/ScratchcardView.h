@@ -2,7 +2,7 @@
 //  ScratchcardView.h
 //  ScratchcardDemo
 //
-//  Created by lihongfeng on 16/6/30.
+//  Created by wanglei on 16/6/30.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 @interface ScratchcardView : UIView
 
-@property (nonatomic, assign) CGFloat scratchWith;//每次要刮的宽度, 默认:15point
+@property (nonatomic, assign) CGFloat scratchWidth;
 
 /**
  *  初始化方法

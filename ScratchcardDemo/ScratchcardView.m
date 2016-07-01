@@ -2,7 +2,7 @@
 //  ScratchcardView.m
 //  ScratchcardDemo
 //
-//  Created by lihongfeng on 16/6/30.
+//  Created by wanglei on 16/6/30.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 
@@ -32,6 +32,7 @@
         self.concealedView.frame = self.bounds;
         self.maskView = maskView;
         self.maskView.frame = self.bounds;
+        
         [self addSubview:self.maskView];
         [self.layer addSublayer:self.concealedView.layer];
         
@@ -48,9 +49,9 @@
     return self;
 }
 
-- (void)setScratchWith:(CGFloat)scratchWith{
-    if (scratchWith > 0) {
-        self.maskLayer.lineWidth = scratchWith;
+- (void)setScratchWidth:(CGFloat)scratchWidth{
+    if (scratchWidth > 0) {
+        self.maskLayer.lineWidth = scratchWidth;
     }
 }
 
