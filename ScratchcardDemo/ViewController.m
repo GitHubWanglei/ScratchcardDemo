@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIView *v1 = [[UIView alloc] init];
-    v1.backgroundColor = [UIColor grayColor];
+    v1.backgroundColor = [UIColor blueColor];
     
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.image = [UIImage imageNamed:@"reward.png"];

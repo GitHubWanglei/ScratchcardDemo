@@ -43,7 +43,7 @@
         self.maskLayer.lineWidth = 15.f;
         self.maskLayer.strokeColor = [UIColor blackColor].CGColor;
         self.maskLayer.fillColor = nil;
-        self.concealedView.layer.mask = self.maskLayer;
+        self.concealedView.layer.mask = self.maskLayer;//遮住concealedView不显示
         
     }
     return self;
